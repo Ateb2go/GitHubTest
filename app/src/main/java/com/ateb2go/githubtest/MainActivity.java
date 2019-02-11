@@ -12,5 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("Babuyai");
         //좋아요yee
+
+        //추가작업
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
